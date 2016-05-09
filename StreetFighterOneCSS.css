@@ -1,0 +1,47 @@
+body{
+	/*background-color: black;*/
+}
+
+#box1{
+	/*to set height to max*/
+	min-height: 100vh;
+	max-width: 100%;
+	/*border: 3px solid;*/
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#box1 #img1{
+	margin: 0px 0px 0px 520px;
+}
+
+#box1 #box2{
+	width: 400px;
+	height: 200px;
+	border: 3px solid;
+	margin: 0px 0px 40px 460px;
+	padding: 0px 0px 0px 0px;
+}
+
+#box1 #box3{
+	width: 200px;
+	height: 100px;
+	border: 3px solid;
+	float: left;
+	margin: 0px 25px 0px 425px;
+}
+
+#box1 #box4{
+	width: 200px;
+	height: 100px;
+	border: 3px solid;
+	float: left;
+	margin: 0px 0px 0px 25px;
+}
+
+#box1 #box5{
+	width: 200px;
+	height: 100px;
+	border: 3px solid;
+	margin: 200px 0px 25px 550px;
+}

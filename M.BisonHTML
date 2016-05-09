@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link id="bisonLink" rel="stylesheet" style="text/css" href="BisonCSS.CSS">
+		<script>
+			function changeCSS(sheet){
+				document.getElementById('bisonLink').setAttribute('href', sheet);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="boxOne">
+			<img id="imgOne" src="StreetFighterLogo.png" alt="logo"
+			style="width:270px; height:150px;">
+		</div>
+		<div id="boxTwo">
+			<img id="imgTwo" src="M. Bison.png" alt="bison"
+			style="float:left; width:270px; height:100px;">	
+			<b>Name:</b> M. Bison<br>
+			<b>Age:</b> Unknown<br>
+			<b>Occupation:</b> Last Boss of<br>
+			Street Fighter V
+		</div>
+		<div id="boxThree">
+			<img id="imgThree" src="M. Bison 3.png" alt="bison3"
+			style="float:right; width:270px; height:100px;">
+			M. Bison is one of the final boss in the Street Fighter Series.
+		</div>
+		<div id="boxFour">
+			<a href="StreetFighter.HTML">
+				<img id="imgFour" src="back.png" alt="backbuttonimage"
+				style="width:75px; height:25px;">
+			</a>
+		</div>
+		<div id="boxFive">
+			<button id="btn" onclick= "changeCSS('BisonCSS2.CSS')">No Border</button>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+#boxOne{
+	width: 270px;
+	height: 150px;
+	border: 3px solid;
+	margin: 0px 0px 50px 525px;
+}
+
+#boxTwo{
+	width: 500px;
+	height: 100px;
+	border: 3px solid;
+	margin: 0px 0px 50px 400px;
+}
+
+#boxThree{
+	width: 500px;
+	height: 100px;
+	border: 3px solid;
+	margin: 0px 0px 50px 400px;
+}
+
+#boxFour{
+	width: 75px;
+	height: 25px;
+	border: 3px solid;
+	margin: 0px 0px 50px 625px;
+}
+
+#boxFive{
+	width: 100px;
+	height: 25px;
+	border: 3px solid;
+	margin: 0px 0px 0px 614px;
+	padding: 0px 0px 0px 0px;
+}
+
+#boxFive #btn{
+	width: 100px;
+	height: 25px;
+}

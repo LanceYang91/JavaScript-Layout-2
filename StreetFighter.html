@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>Street Fighter Page One</title>
+		<link rel="stylesheet" type="text/css" href="StreetFighterOneCSS.CSS">
+		<!--External Javascript-->
+		<script src="Street Fighter JS.JS"></script>
+	</head>
+	<body>
+		<div id="box1">
+			<img id="img1" src="StreetFighterLogo.png" alt="logo"
+			style="width:270px; height:150px;">
+			<div id="box2">
+				<img id="img2" src="character select logo.png" alt="character select"
+				style="width:400px; height:40px;">
+			</div>
+			<div id="box3">
+				<img id="img3" src="Ryu.png" alt="ryu"
+				style="width:200px; height:100px;" onclick="changeImage()">
+			</div>
+			<div id="box4">
+				<img id="img4" src="Ken.png" alt="ken"
+				style="width:200px; height:100px;" onclick="changeImage2()">
+			</div>
+			<div id="box5">
+				<a href="M.BisonHTML">
+					<img id="img5" src="M. Bison 2.png" alt="boss2"
+					style="width:200px; height:100px;">
+				</a>
+			</div>
+		</div>
+		<script>
+		<!-- change character select logo to ryu image-->
+			function changeImage(){
+				var image = document.getElementById("img2");
+				image.src = "Ryu.png";
+				image.style.width = "400px";
+				image.style.height = "200px";
+			}
+		</script>
+	</body>
+</html>
